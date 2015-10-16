@@ -1,0 +1,32 @@
+---
+layout: post
+title: 	A URL shortener
+date:   2015-10-03 13:51:00
+published: false
+---
+
+#### [swaha.me](http://swaha.me)
+
+This project makes use of PHP, MySQL, and a little bit of JQuery. I had the idea of building it a couple of weeks ago because I wanted to expand my web programming knowledge a bit beyond playing with static web pages. I had this domain '[swaha.me](http://swaha.me)' sitting around that I had gotten for free as a bit of an inside joke from the Github student package last year, but it turns out to be a pretty nice name for a URL shortener. From [Wikipedia](https://en.wikipedia.org/wiki/Svaha), swaha (svāhā, soha, etc.) translates literally to "well said." 
+
+#### URLs
+
+I decided that I wanted links to be 8 alphanumeric characters, similar to how [goo.gl](http://goo.gl) works. With a 64-bit version of PHP, there are 2^63-1 = ~9 quintillion possible ids (without overflowing...) and with a 62 character alphabet (A-Z, a-z, 0-9), we have 62^8 = ~200 trillion possible unique links. I'm not sure if using a MySQL database with a single table is very scalable, but my hunch is that we'd want a slightly more sophisticated solution to handle 200 trillion links. In any case, I don't anticipate ever coming even close to filling the 20 GB of space allowed by my hosting service. If nothing else, the large number of possible shortened URLs should make it difficult to guess them without knowing the URL that maps to it in the first place.
+
+#### Hashing
+
+So how do we go from this:
+<pre>https://www.google.com/maps/place/University+of+Virginia/@38.0335529,-78.5079772,17z/data=!3m1!4b1!4m2!3m1!1s0x89b38648b749c4dd:0x405108c2cc8b5846</pre>
+
+to this: 
+
+`http://swaha.me/26T6tK`
+
+My current approach is to assign each newly encountered URL an id as it is added to the database.
+
+
+
+#### Weaknesses / Future
+- My current hashing approach involves giving each URL an id according to its order in being added to the database. If someone wanted to, they could still traverse my database fairly easily by using this information and the code for the website that I have made public.
+
+- 
