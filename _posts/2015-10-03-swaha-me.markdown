@@ -15,3 +15,5 @@ The shortener works kind of like a hash table, where unique input URLs are assig
 - Current hashing approach is vulnerable since shortened URLs are computed based on their order in being added to the database.
 - Someone could probably spam this pretty easily with garbage links, still working on a solution to this without tracking IPs (cookies or sessions maybe?).
 - I've been wanting to make a chrome extension but haven't had time to finish it.
+
+Find the code [here](https://github.com/ajvarshneya/swaha.me).
