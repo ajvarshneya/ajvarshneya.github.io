@@ -7,7 +7,7 @@ published: true
 
 #### Wireless Remote / Display
 
-I made this MSP430-controlled rotor-remote and receiver as a solo project for my embedded final. I had a pretty good grade already and didn't have a lot of time so I didn't go too crazy on this project. Still, I think it's cool and am happy with how it turned out.
+I made this MSP430-controlled rotor-remote and receiver as a solo project for my embedded final. I was doing pretty well in the class so I didn't go all out on the project, but I think it is cool and I'm happy with how it turned out. It's kind of like a TV-remote.
 
 The project uses a lot of different concepts we went over throughout the class including SPI, switch debouncing, Manchester coding, and parity checking. I used two header boards provided by the instructors, one with a TR1000 chip for wireless transmission and receiving, and the other with a Panasonic EVEG encoder and a CAT4008 chip to drive the 7-segment display.  
 
