@@ -14,4 +14,20 @@ The project uses a lot of different concepts we went over throughout the class i
 Find the code [here](https://github.com/ajvarshneya/embedded_final).
 
 Bonus demo:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/w3mtzS2CWrI?version=3&vq=hd1080" frameborder="0" allowfullscreen></iframe>
+<style scoped>
+	.container {
+   		position: relative;
+   		width: 100%;
+		max-width: 560px;
+   		height: 0;
+   		padding-bottom: 56.25%;
+	}
+	.video {
+   		position: absolute;
+		width: 100%;
+    	height: 100%;
+	}
+</style>
+<div class="container">
+<iframe src="https://www.youtube.com/embed/w3mtzS2CWrI?version=3&vq=hd1080" frameborder="0" allowfullscreen class="video"></iframe>
+</div>
