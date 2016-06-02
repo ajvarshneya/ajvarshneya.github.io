@@ -10,7 +10,22 @@ layout: default
 			width: 25%; 
 			float: right; 
 			margin: 0px 5% 5% 5%;	
+			background-color: white;	
+			border: 5px solid #aed0cf;
+			-moz-transition: all .2s ease-out;
+   			-o-transition: all .2s ease-out;
+    		-webkit-transition: all .2s ease-out;
+     		transition: all .2s ease-out;
 		}
+		#portrait:hover {
+			opacity: 0.75;
+			border: 5px solid #5EA1A0;
+			-moz-transition: all .2s ease-in;
+   			-o-transition: all .2s ease-in;
+    		-webkit-transition: all .2s ease-in;
+			transition: all .2s ease-in;
+		}
+		
 		@media only screen and (max-width: 480px) {
 			#portrait {
 				border-radius: 50%; 
