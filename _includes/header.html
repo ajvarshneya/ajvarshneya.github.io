@@ -16,8 +16,9 @@
         </svg>
       </a>
 
-      <div class="trigger">
-        {% for node in site.pages %}
+	  <div class="trigger">
+		{% assign sorted_pages = site.pages | sort:"order" %}
+        {% for node in sorted_pages %}
           {% if node.title %}
             {% if node.url == page.url %}
             <a class="current-page-link" href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a>

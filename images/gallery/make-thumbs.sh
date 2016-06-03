@@ -1,4 +1,5 @@
-for FILE in *thumb.jpg
+for FILE in *-thumb.jpg
 do
-	sips -Z 320 *thumb.jpg
+	#cp $FILE ${FILE%%.*}-thumb.jpg
+	sips --resampleWidth 225 $FILE
 done
