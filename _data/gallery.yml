@@ -7,40 +7,40 @@
     thumb: 12-18-15-shenandoah1-thumb.jpg
   - name: 12-18-15-shenandoah2.jpg
     text: Skyline drive
-    thumb:  12-18-15-shenandoah2-thumb.jpg
+    thumb: 12-18-15-shenandoah2-thumb.jpg
   - name: 12-18-15-shenandoah3.jpg
     text: Skyline drive
-    thumb:  12-18-15-shenandoah3-thumb.jpg
+    thumb: 12-18-15-shenandoah3-thumb.jpg
   - name: 12-18-15-shenandoah4.jpg
     text: A creek
-    thumb:  12-18-15-shenandoah4-thumb.jpg
+    thumb: 12-18-15-shenandoah4-thumb.jpg
   - name: 12-18-15-shenandoah5.jpg
     text: Crossing the creek
-    thumb:  12-18-15-shenandoah5-thumb.jpg
+    thumb: 12-18-15-shenandoah5-thumb.jpg
   - name: 12-18-15-shenandoah6.jpg
-    text: Pictureception
-    thumb:  12-18-15-shenandoah6-thumb.jpg
+    text: Taking a picture of Mojib taking a picture 
+    thumb: 12-18-15-shenandoah6-thumb.jpg
   - name: 12-18-15-shenandoah7.jpg
     text: Little waterfall
-    thumb:  12-18-15-shenandoah7-thumb.jpg
+    thumb: 12-18-15-shenandoah7-thumb.jpg
   - name: 12-18-15-shenandoah8.jpg
     text: Sugat admiring the waterfall
-    thumb:  12-18-15-shenandoah8-thumb.jpg
+    thumb: 12-18-15-shenandoah8-thumb.jpg
   - name: 12-18-15-shenandoah9.jpg
     text: Waterfall
-    thumb:  12-18-15-shenandoah9-thumb.jpg
+    thumb: 12-18-15-shenandoah9-thumb.jpg
   - name: 12-18-15-shenandoah10.jpg
     text: Me
-    thumb:  12-18-15-shenandoah10-thumb.jpg
+    thumb: 12-18-15-shenandoah10-thumb.jpg
   - name: 12-18-15-shenandoah11.jpg
     text: Mossy wall
-    thumb:  12-18-15-shenandoah11-thumb.jpg
+    thumb: 12-18-15-shenandoah11-thumb.jpg
   - name: 12-18-15-shenandoah12.jpg
     text: More nature
-    thumb:  12-18-15-shenandoah12-thumb.jpg
+    thumb: 12-18-15-shenandoah12-thumb.jpg
   - name: 12-18-15-shenandoah13.jpg
     text: Ali likes the nature
-    thumb:  12-18-15-shenandoah13-thumb.jpg
+    thumb: 12-18-15-shenandoah13-thumb.jpg
  
 - id: unsorted
   description: Miscellaneous photos
@@ -50,7 +50,7 @@
     text:
     thumb: 7-3-14-pearl-thumb.jpg
   - name: 7-4-14-fireworks.jpg
-    text: 
+    text:  
     thumb: 7-4-14-fireworks-thumb.jpg
   - name: 7-4-14-lake.jpg
     text: 
@@ -68,22 +68,22 @@
     text: 
     thumb: 11-8-14-rice-thumb.jpg
   - name: 5-8-15-ece-project.jpg 
-    text: 
+    text: Late nights in Rice ...
     thumb: 5-8-15-ece-project-thumb.jpg 
   - name: 10-23-15-wedding-boat.jpg 
-    text: Before the wedding in Miami, on the party boat!
+    text: Before the wedding in Miami, on the party boat.
     thumb: 10-23-15-wedding-boat-thumb.jpg 
   - name: 10-24-15-beach1.jpg       
-    text: Ocean
+    text: Miami ocean 1
     thumb: 10-24-15-beach1-thumb.jpg
   - name: 10-24-15-beach2.jpg
-    text: Ocean
+    text: Miami ocean 2
     thumb: 10-24-15-beach2-thumb.jpg
   - name: 10-24-15-beach3.jpg       
-    text: Ocean
+    text: Miami ocean 3
     thumb: 10-24-15-beach3-thumb.jpg 
   - name: 11-2-15-hotel-view.jpg    
-    text: View from hotel in Wisconsin
+    text: View from the hotel in Wisconsin
     thumb: 11-2-15-hotel-view-thumb.jpg
   - name: 11-3-15-plane-view.jpg    
     text: On the plane back from Wisconsin
@@ -95,5 +95,5 @@
     text: 
     thumb: 12-6-15-rotunda-thumb.jpg
   - name: 12-10-15-ece-project.jpg 
-    text: 
+    text: My TV remote! :)
     thumb: 12-10-15-ece-project-thumb.jpg 
