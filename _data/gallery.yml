@@ -3,97 +3,97 @@
   path: /images/gallery
   images:
   - name: 12-18-15-shenandoah1.jpg
-    text: Skyline drive
     thumb: 12-18-15-shenandoah1-thumb.jpg
+    text: Skyline drive 
   - name: 12-18-15-shenandoah2.jpg
-    text: Skyline drive
     thumb: 12-18-15-shenandoah2-thumb.jpg
+    text: Skyline drive 
   - name: 12-18-15-shenandoah3.jpg
-    text: Skyline drive
     thumb: 12-18-15-shenandoah3-thumb.jpg
+    text: Skyline drive 
   - name: 12-18-15-shenandoah4.jpg
-    text: A creek
     thumb: 12-18-15-shenandoah4-thumb.jpg
+    text: A creek 
   - name: 12-18-15-shenandoah5.jpg
-    text: Crossing the creek
     thumb: 12-18-15-shenandoah5-thumb.jpg
+    text: Crossing the creek 
   - name: 12-18-15-shenandoah6.jpg
-    text: Taking a picture of Mojib taking a picture 
     thumb: 12-18-15-shenandoah6-thumb.jpg
+    text: Taking a picture of Mojib taking a picture  
   - name: 12-18-15-shenandoah7.jpg
-    text: Little waterfall
     thumb: 12-18-15-shenandoah7-thumb.jpg
+    text: Little waterfall 
   - name: 12-18-15-shenandoah8.jpg
-    text: Sugat admiring the waterfall
     thumb: 12-18-15-shenandoah8-thumb.jpg
+    text: Sugat admiring the waterfall 
   - name: 12-18-15-shenandoah9.jpg
-    text: Waterfall
     thumb: 12-18-15-shenandoah9-thumb.jpg
+    text: Waterfall 
   - name: 12-18-15-shenandoah10.jpg
-    text: Me
     thumb: 12-18-15-shenandoah10-thumb.jpg
+    text: Me 
   - name: 12-18-15-shenandoah11.jpg
-    text: Mossy wall
     thumb: 12-18-15-shenandoah11-thumb.jpg
+    text: Mossy wall 
   - name: 12-18-15-shenandoah12.jpg
-    text: More nature
     thumb: 12-18-15-shenandoah12-thumb.jpg
+    text: More nature 
   - name: 12-18-15-shenandoah13.jpg
-    text: Ali likes the nature
     thumb: 12-18-15-shenandoah13-thumb.jpg
+    text: Ali likes the nature 
  
 - id: unsorted
   description: Miscellaneous photos
   path: /images/gallery
   images:
   - name: 7-3-14-pearl.jpg
-    text:
     thumb: 7-3-14-pearl-thumb.jpg
+    text: 
   - name: 7-4-14-fireworks.jpg
-    text:  
     thumb: 7-4-14-fireworks-thumb.jpg
+    text:   
   - name: 7-4-14-lake.jpg
-    text: 
     thumb: 7-4-14-lake-thumb.jpg
+    text:  
   - name: 10-17-14-rodfest.jpg      
-    text: 
     thumb: 10-17-14-rodfest-thumb.jpg
+    text:  
   - name: 10-17-14-kite.jpg
-    text: 
     thumb: 10-17-14-kite-thumb.jpg
+    text:  
   - name: 10-28-14-lawn.jpg         
-    text: 
     thumb: 10-28-14-lawn-thumb.jpg 
+    text:  
   - name: 11-8-14-rice.jpg
-    text: 
     thumb: 11-8-14-rice-thumb.jpg
+    text: Late nights in Rice ... 
   - name: 5-8-15-ece-project.jpg 
-    text: Late nights in Rice ...
     thumb: 5-8-15-ece-project-thumb.jpg 
+    text:  
   - name: 10-23-15-wedding-boat.jpg 
-    text: Before the wedding in Miami, on the party boat.
     thumb: 10-23-15-wedding-boat-thumb.jpg 
+    text: Before my cousin's wedding in Miami, on the party boat. 
   - name: 10-24-15-beach1.jpg       
-    text: Miami ocean 1
     thumb: 10-24-15-beach1-thumb.jpg
+    text: Miami ocean 1 
   - name: 10-24-15-beach2.jpg
-    text: Miami ocean 2
     thumb: 10-24-15-beach2-thumb.jpg
+    text: Miami ocean 2 
   - name: 10-24-15-beach3.jpg       
-    text: Miami ocean 3
     thumb: 10-24-15-beach3-thumb.jpg 
+    text: View from the Eden Roc in Miami 
   - name: 11-2-15-hotel-view.jpg    
-    text: View from the hotel in Wisconsin
     thumb: 11-2-15-hotel-view-thumb.jpg
+    text: View from the hotel in Wisconsin 
   - name: 11-3-15-plane-view.jpg    
-    text: On the plane back from Wisconsin
     thumb: 11-3-15-plane-view-thumb.jpg
+    text: On the plane back from Wisconsin 
   - name: 11-17-15-technosonics.jpg 
-    text: Technosonics concert in the Chapel
     thumb: 11-17-15-technosonics-thumb.jpg 
+    text: Technosonics concert in the Chapel 
   - name: 12-6-15-rotunda.jpg
-    text: 
     thumb: 12-6-15-rotunda-thumb.jpg
+    text:  
   - name: 12-10-15-ece-project.jpg 
-    text: My TV remote! :)
     thumb: 12-10-15-ece-project-thumb.jpg 
+    text: My TV remote! :) 
