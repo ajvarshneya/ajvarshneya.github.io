@@ -50,11 +50,7 @@
 
         &:hover {
             opacity: 0.6;
-            -moz-transition: all .2s ease-in;
-            -o-transition: all .2s ease-in;
-            -webkit-transition: all .2s ease-in;
-            transition: all .2s ease-in;
-        }
+		}
     }
 
     .current-page-link {
@@ -68,10 +64,6 @@
 
         &:hover {
             opacity: 0.6;
-            -moz-transition: all .2s ease-in;
-            -o-transition: all .2s ease-in;
-            -webkit-transition: all .2s ease-in;
-            transition: all .2s ease-in;
         }
     }
 
@@ -93,7 +85,7 @@
             padding-top: 10px;
             text-align: center;
 
-            > svg {
+            svg {
                 width: 18px;
                 height: 15px;
 

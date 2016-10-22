@@ -4,10 +4,13 @@ layout: default
 {% for album in site.data.gallery %}
 	{% if album.id == page.id %}
 	<br>
-	<!--<a href="{{ page.url }}"><h2>{{ album.id }}</h2></a>-->
 	{% for image in album.images %}
 		<a href="{{ album.path }}/{{ image.name }}" title="{{ image.text }}">
-			<img style="width: 225px; height: 125px; object-fit: cover; float: left; margin: 1% 1% 1% 1%" src="{{ album.path }}/{{ image.thumb }}">
+			<img style="width: 225px; 
+						height: 125px; 
+						object-fit: cover; 
+						float: left; 
+						margin: 1% 1% 1% 1%" src="{{ album.path }}/{{ image.thumb }}">
         </a>
     {% endfor %}
   {% endif %}
