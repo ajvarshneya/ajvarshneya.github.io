@@ -1,0 +1,31 @@
+---
+layout: post
+title:  Capstone Project
+date:   2016-12-20 17:14:00
+published: true
+---
+
+#### Autonomous Chessboard
+
+We built a chessboard that lets you play against a computer. A lot of hardware development and some C/Python programming.
+
+Find the code [here](https://github.com/SebastianJay/chECEckm8).
+
+Bonus demo:
+<style scoped>
+    .container {
+        position: relative;
+        width: 100%;
+        max-width: 560px;
+        height: 0;
+        padding-bottom: 56.25%;
+    }
+    .video {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+</style>
+<div class="container">
+<iframe src="https://www.youtube.com/embed/8bZ6Lw5DjGU?version=3&vq=hd1080" frameborder="0" allowfullscreen class="video"></iframe>
+</div>
