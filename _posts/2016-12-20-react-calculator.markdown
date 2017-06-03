@@ -11,7 +11,7 @@ I tried to copy the OSX calculator using React.
 
 Screenshot:
 
-![The calculator](/images/react-calculator.png)
+![The calculator](https://s3.amazonaws.com/ajvarshneya/react-calculator.png)
 
 
 Find the code [here](https://github.com/ajvarshneya/react-calculator).

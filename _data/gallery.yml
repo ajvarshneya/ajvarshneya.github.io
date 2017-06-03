@@ -1,6 +1,6 @@
 - id: shenandoah
   description: Explored Shenandoah one day last December
-  path: /images/gallery
+  path: https://s3.amazonaws.com/ajvarshneya/shenandoah
   images:
   - name: 12-18-15-shenandoah1.jpg
     thumb: 12-18-15-shenandoah1-thumb.jpg
@@ -44,7 +44,7 @@
  
 - id: unsorted
   description: Miscellaneous photos
-  path: /images/gallery
+  path: https://s3.amazonaws.com/ajvarshneya/unsorted
   images:
   - name: 7-3-14-pearl.jpg
     thumb: 7-3-14-pearl-thumb.jpg
