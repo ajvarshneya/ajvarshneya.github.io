@@ -4,8 +4,9 @@ title:  React Calculator
 date:   2016-12-20 17:14:00
 published: true
 ---
-
+<!--
 #### React Calculator
+-->
 
 I copied the OSX calculator using React.
 
