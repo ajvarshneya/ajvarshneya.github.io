@@ -11,5 +11,5 @@ I copied the OSX calculator using React.
 
 Find the code [here](https://github.com/ajvarshneya/react-calculator).
 
-And a [demo](ajvarshneya.com/react-calculator).
+And a [demo](http://www.ajvarshneya.com/react-calculator).
 
