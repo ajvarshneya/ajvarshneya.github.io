@@ -8,9 +8,8 @@ published: true
 #### React Calculator
 -->
 
-I copied the OSX calculator using React.
+I tried to copy the OSX calculator using React.
 
-Find the code [here](https://github.com/ajvarshneya/react-calculator).
+Code is [here](https://github.com/ajvarshneya/react-calculator).
 
-And a [demo](http://www.ajvarshneya.com/react-calculator).
-
+Demo is [here](http://www.ajvarshneya.com/react-calculator).

@@ -1,17 +1,16 @@
 ---
 layout: post
-title:  Capstone Project
+title:  "Capstone: Wizard's Chess"
 date:   2016-12-20 17:14:00
 published: true
 ---
 
-#### Autonomous Chessboard
+#### Capstone: Wizard's Chess
 
-We built a chessboard that lets you play against a computer. A lot of hardware development and some C/Python programming.
+My capstone at UVA was building a robot chess board. We did a lot of hardware work and some C/Python programming.
 
-Find the code [here](https://github.com/SebastianJay/chECEckm8).
+Code is [here](https://github.com/SebastianJay/chECEckm8).
 
-Bonus demo:
 <style scoped>
     .container {
         position: relative;

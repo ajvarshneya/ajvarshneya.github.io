@@ -1,0 +1,21 @@
+---
+layout: post
+title:  Drawing Fractals
+date:   2018-10-06 05:00:00
+published: true
+---
+<!--
+#### Drawing Fractals
+-->
+
+I originally wrote up these scripts a little over a year ago before I'd started working. I'd taken a graphics class in school where we one of the things we implemented was a line drawing algorithm (something like [this](https://en.wikipedia.org/wiki/Digital_differential_analyzer_(graphics_algorithm))). I adapted some of that code I had written to draw fractals and other nice patterns that were nicely [represented with grammars](https://en.wikipedia.org/wiki/L-system).
+
+Code is [here](https://github.com/ajvarshneya/fractals-and-curves).
+
+<img src="https://s3.amazonaws.com/ajvarshneya/posts/dragon.png" alt="Dragon curve" width="360"/>
+<img src="https://s3.amazonaws.com/ajvarshneya/posts/plant.png" alt="A plant" width="360"/>
+
+<img src="https://s3.amazonaws.com/ajvarshneya/posts/sierpinsky.png" alt="Sierpinski triangle" width="360"/>
+<img src="https://s3.amazonaws.com/ajvarshneya/posts/z_order.png" alt="Z-order curve" width="360"/>
+
+<img src="https://s3.amazonaws.com/ajvarshneya/posts/koch.png" alt="Koch snowflake" width="360"/>
