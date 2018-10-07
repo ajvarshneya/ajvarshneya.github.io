@@ -3,8 +3,6 @@
 ---
 @charset "utf-8";
 
-
-
 // Our variables
 $base-font-family: Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
@@ -21,20 +19,9 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
-// Width of the content area
-$content-width:    800px;
+$on-tablet: 768px;
+$on-phone: 480px;
 
-$on-palm:          800px;
-$on-laptop:        800px;
-
-
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
@@ -44,8 +31,8 @@ $on-laptop:        800px;
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
+@import "home",
+        "base"
+        // "layout",
+        // "syntax-highlighting"
 ;

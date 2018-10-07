@@ -4,20 +4,8 @@
 <html>
 
   {% include head.html %}
-
   <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-	{% if layout.footer == nil or layout.footer == true %}
-    	{% include footer.html %}
-	{% endif %}
+    {{ content }}
   </body>
 
 </html>
-
