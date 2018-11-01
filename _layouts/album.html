@@ -1,17 +1,16 @@
 ---
 layout: default
 ---
-{% for album in site.data.pictures %}
-	{% if album.id == page.id %}
-	<br>
-	{% for image in album.images %}
-		<a href="{{ album.path }}/{{ image.name }}" title="{{ image.text }}">
-			<img style="width: 225px;
-						height: 125px;
-						object-fit: cover;
-						float: left;
-						margin: 1% 1% 1% 1%" src="{{ album.path }}/{{ image.thumb }}">
-        </a>
-    {% endfor %}
-  {% endif %}
-{% endfor %}
+<div class="content-container">
+	<div class="content">
+	{% for album in site.data.pictures %}
+		{% if album.id == page.id %}
+			{% for image in album.images %}
+				<a href="{{ album.path }}/{{ image.name }}" title="{{ image.text }}">
+					<img style="object-fit: cover; float: left;" src="{{ album.path }}/{{ image.thumb }}">
+		        </a>
+		    {% endfor %}
+		{% endif %}
+	{% endfor %}
+	</div>
+</div>

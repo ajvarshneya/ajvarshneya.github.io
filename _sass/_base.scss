@@ -3,26 +3,28 @@
     padding: 0;
 }
 
+html {
+	background-color:  $background-color;
+}
+
 html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+	height: 100%;
 }
 
 body {
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+	color: white;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
 
-  background: url('https://s3.amazonaws.com/ajvarshneya/background.png') no-repeat top center;
-  background-color: $background-color;
-  background-size: cover;
+	background: url('https://s3.amazonaws.com/ajvarshneya/background.png') no-repeat top center;
+	background-color: white;
+	background-size: cover;
 }
 
 a, a:visited, a:active, a:focus {
-  color: white;
-  text-decoration: none;
-  outline: none;
+	color: white;
+	text-decoration: none;
+	outline: none;
 }
 
 a:hover {
@@ -37,6 +39,11 @@ a:hover {
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome and Opera */
+}
+
+.title {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
 }
 
 /* Header: name/nav styling */
@@ -69,7 +76,7 @@ a:hover {
       letter-spacing: 10px;
     }
     .inline-list {
-      font-size: 12px;
+      font-size: 14px;
     }
   }
 }
@@ -82,229 +89,3 @@ a:hover {
     }
   }
 }
-
-//
-//
-//
-// /**
-//  * Basic styling
-//  */
-// body {
-//     font-family: $base-font-family;
-//     font-size: $base-font-size;
-//     line-height: $base-line-height;
-//     font-weight: 300;
-//     color: $text-color;
-//     background-color: $background-color;
-//     -webkit-text-size-adjust: 100%;
-// }
-//
-//
-//
-// /**
-//  * Set `margin-bottom` to maintain vertical rhythm
-//  */
-// h1, h2, h3, h4, h5, h6,
-// p, blockquote, pre,
-// ul, ol, dl, figure,
-// %vertical-rhythm {
-//     margin-bottom: $spacing-unit / 2;
-// }
-//
-//
-//
-// /**
-//  * Images
-//  */
-// img {
-//     max-width: 100%;
-//     vertical-align: middle;
-// }
-//
-//
-//
-// /**
-//  * Figures
-//  */
-// figure > img {
-//     display: block;
-// }
-//
-// figcaption {
-//     font-size: $small-font-size;
-// }
-//
-//
-//
-// /**
-//  * Lists
-//  */
-// ul, ol {
-//     margin-left: $spacing-unit;
-// }
-//
-// li {
-//     > ul,
-//     > ol {
-//          margin-bottom: 0;
-//     }
-// }
-//
-//
-//
-// /**
-//  * Headings
-//  */
-// h1, h2, h3, h4, h5, h6 {
-//     font-weight: 300;
-// }
-//
-//
-//
-// /**
-//  * Links
-//  */
-// a {
-//     color: #5ea1a0;
-//     text-decoration: none;
-//
-//     /*
-//     &:visited {
-//         color: darken(#5ea1a0, 15%);
-//     }*/
-//
-//     &:hover {
-// 		/*color: red;*/
-//         opacity: 0.6;
-//     }
-// }
-//
-//
-//
-// /**
-//  * Blockquotes
-//  */
-// blockquote {
-//     color: $grey-color;
-//     border-left: 4px solid $grey-color-light;
-//     padding-left: $spacing-unit / 2;
-//     font-size: 18px;
-//     letter-spacing: -1px;
-//     font-style: italic;
-//
-//     > :last-child {
-//         margin-bottom: 0;
-//     }
-// }
-//
-//
-//
-// /**
-//  * Code formatting
-//  */
-// pre,
-// code {
-//     font-size: 15px;
-//     border: 1px solid $grey-color-light;
-//     border-radius: 3px;
-//     background-color: #eef;
-// }
-//
-// code {
-//     padding: 1px 5px;
-// }
-//
-// pre {
-//     padding: 8px 12px;
-//     overflow-x: scroll;
-//
-//     > code {
-//         border: 0;
-//         padding-right: 0;
-//         padding-left: 0;
-//     }
-// }
-//
-//
-//
-// /**
-//  * Wrapper
-//  */
-// .wrapper {
-//     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-//     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-//     margin-right: auto;
-//     margin-left: auto;
-//     padding-right: $spacing-unit;
-//     padding-left: $spacing-unit;
-//     @extend %clearfix;
-//
-//     @include media-query($on-laptop) {
-//         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-//         max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-//
-//
-//
-// /**
-//  * Clearfix
-//  */
-// %clearfix {
-//
-//     &:after {
-//         content: "";
-//         display: table;
-//         clear: both;
-//     }
-// }
-//
-//
-//
-// /**
-//  * Icons
-//  */
-// .icon {
-//
-//     > svg {
-//         display: inline-block;
-//         width: 16px;
-//         height: 16px;
-//         vertical-align: middle;
-//
-//         path {
-//             fill: $grey-color;
-//         }
-//     }
-// }
-//
-// #contact-container {
-//     text-align: center;
-//     height: 70%;
-//     // padding: 10px 30px 10px 30px;
-//     padding: 0px 10px 10px 0px;
-//     font-size: 1.3em
-// }
-//
-// #contact-container a {
-//     color: $grey-color-dark;
-//     text-decoration: none;
-// }
-//
-// #contact-container a:hover {
-//     text-decoration: none;
-// }
-//
-// #contact-icons-container {
-//     // padding: 0px 3px 0px 3px;
-//     // text-align: center;
-//     text-align: left;
-// }
-//
-// .contact-icon {
-//     width: 48px;
-//     display: inline-block;
-// }
-//

@@ -3,25 +3,17 @@
 ---
 @charset "utf-8";
 
-
 $background-color: #5a5a5a;
 $accent-color: #5ea1a0;
 
-// Our variables
+// fonts
 $base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$title-font-size: 48px;
+$title-font-weight: 500;
+$font-weight: 400;
 
-$spacing-unit:     30px;
-
-$text-color:       #111;
-
-
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$max-width: 1024px;
+$line-height: 22px;
 
 $on-tablet: 768px;
 $on-phone: 480px;

@@ -7,13 +7,10 @@ published: true
 
 #### [swaha.me](http://swaha.me)
 
-This project makes use of PHP, MySQL, and a little bit of JQuery. I wanted to expand my web programming knowledge a bit beyond working with static web pages. I had the domain 'swaha.me' that I got for free with github student packages some time ago and it turns out to be a pretty nice name for a URL shortener. From [Wikipedia](https://en.wikipedia.org/wiki/Svaha), swaha (svāhā, soha, etc.) translates literally to "well said." 
+This project makes use of PHP, MySQL, and a little bit of JQuery. I wanted to expand my web programming knowledge a bit beyond working with static web pages. I had the domain 'swaha.me' that I got for free with github student packages some time ago and it turns out to be a pretty nice name for a URL shortener. From [Wikipedia](https://en.wikipedia.org/wiki/Svaha), swaha (svāhā, soha, etc.) translates literally to "well said."
 
 The shortener works kind of like a hash table, where unique input URLs are assigned a hash as part of their unique shortened URL. Links are the domain/extension followed by these 8 alphanumeric characters. With 64-bit version of PHP there are 2^63-1 = ~9 quintillion possible ids and with a 62 character alphabet (A-Z, a-z, 0-9) there are 62^8 = ~200 trillion possible unique links. Keep in mind there are going to be many, many collisions, but this should be pretty good for my purposes (rickrolling my friends).
 
-#### Improvements
-- Current hashing approach is vulnerable since shortened URLs are computed based on their order in being added to the database.
-- Someone could probably spam this pretty easily with garbage links, still working on a solution to this without tracking IPs (cookies or sessions maybe?).
-- Chrome extension?
-
 Find the code [here](https://github.com/ajvarshneya/swaha.me).
+
+edit: I turned this off in 2016. RIP swaha.me.

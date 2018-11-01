@@ -1,6 +1,6 @@
 ---
-title: Pictures
 layout: default
+title: Pictures
 permalink: /pictures/
 ---
 <style scoped>
@@ -9,7 +9,6 @@ permalink: /pictures/
 		float: left;
 		margin: 1% 1% 1% 1%;
 		width: 30%;
-		min-width: 200px;
 		text-align: center;
 	}
 
@@ -19,13 +18,15 @@ permalink: /pictures/
 
 </style>
 
-<div class="main-container">
-	{% for album in site.data.pictures %}
-	<div class="album-thumb">
-		<a href="{{ album.id }}" alt="{{ album.description }}" >
-			<div class="album-name">{{ album.id }}</div>
-			<img src="/pictures/{{ album.id }}/thumb.jpg">
-		</a>
+<div class="content-container">
+	<div class="content">
+		{% for album in site.data.pictures %}
+		<div class="album-thumb">
+			<a href="{{ album.id }}" alt="{{ album.description }}" >
+				<div class="album-name">{{ album.id }}</div>
+				<img src="/pictures/{{ album.id }}/thumb.jpg">
+			</a>
+		</div>
+		{% endfor %}
 	</div>
-	{% endfor %}
 </div>
