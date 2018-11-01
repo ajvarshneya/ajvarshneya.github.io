@@ -1,7 +1,17 @@
 ---
-layout: archive 
+layout: default
 title: Archive
 permalink: /archive/
-order: 1
 ---
-
+<div class="main-container">
+  <div class="post-list-container">
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <a class="post-item" href="{{ post.url | prepend: site.baseurl }}">
+          <div class="post-link">{{ post.title }}</div>
+          <div class="post-date">{{ post.date | date: "%0d %b, %Y" }}</div>
+        </a>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

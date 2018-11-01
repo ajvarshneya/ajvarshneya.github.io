@@ -1,32 +1,5 @@
-body {
-  background: url('https://s3.amazonaws.com/ajvarshneya/background.png') no-repeat top center;
-  background-size: cover;
-}
-
-#name-container {
-  margin: 22.5% 5% 5%;
-}
-
-#name {
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 30px;
-  letter-spacing: 15px;
+#home-container {
   text-align: center;
-  text-transform: uppercase;
-}
-
-@include media-query($on-tablet) {
-  #name {
-    font-size: 20px;
-    letter-spacing: 10px;
-  }
-}
-
-@include media-query($on-phone) {
-  #name {
-    font-size: 15px;
-    letter-spacing: 10px;
-    text-align: left;
-  }
+  line-height: 30px;
+  margin: 40px 0;
 }

@@ -1,17 +1,16 @@
 ---
 layout: default
 ---
-<link rel="icon" type="image/png" href="../images/av64.png">
-<div class="post">
+<div class="main-container">
+  <div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %}  {{ page.author }}{% endif %}{% if page.meta %}  {{ page.meta }}{% endif %}</p>
-  </header>
+    <header class="post-header">
+      <h1 class="post-title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
+      <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %}  {{ page.author }}{% endif %}{% if page.meta %}  {{ page.meta }}{% endif %}</p>
+    </header>
 
-  <article class="post-content">
-    {{ content }}
-  </article>
-
+    <article class="post-content">
+      {{ content }}
+    </article>
+  </div>
 </div>
-

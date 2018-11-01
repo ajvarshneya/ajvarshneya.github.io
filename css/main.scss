@@ -3,6 +3,10 @@
 ---
 @charset "utf-8";
 
+
+$background-color: #5a5a5a;
+$accent-color: #5ea1a0;
+
 // Our variables
 $base-font-family: Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
@@ -12,8 +16,8 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+
+
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -28,11 +32,10 @@ $on-phone: 480px;
     }
 }
 
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import "home",
-        "base"
-        // "layout",
+@import "base",
+        "home",
+        "layout",
+        "archive"
         // "syntax-highlighting"
 ;
