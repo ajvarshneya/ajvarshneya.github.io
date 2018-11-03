@@ -8,6 +8,7 @@ header {
 	background-color: white;
 
 	min-height: calc(100% - 220px);
+	overflow: auto;
 	padding: 40px;
 	margin: 0 auto;
 
@@ -18,12 +19,10 @@ header {
 		margin-bottom: $line-height;
 	}
 
-	a {
-		color: black;
-	}
-
 	img {
 		padding: 14px 28px 14px 0px;
+		object-fit: cover;
+		float: left;
 	}
 
 	.video-container {
@@ -44,8 +43,21 @@ header {
 	margin: 0 auto;
 }
 
-.post-content {
-	a {
-		color: $accent-color;
+.album-thumb {
+	position: relative;
+	display: inline-block;
+	margin: 14px 28px 14px 0px;
+	.caption {
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate( -50%, -50% );
+	    text-align: center;
+	    font-weight: bold;
+	}
+	img {
+		display: block;
+		padding: 0;
+		filter: brightness(50%);
 	}
 }

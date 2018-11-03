@@ -7,7 +7,7 @@ layout: default
 		{% if album.id == page.id %}
 			{% for image in album.images %}
 				<a href="{{ album.path }}/{{ image.name }}" title="{{ image.text }}">
-					<img style="object-fit: cover; float: left;" src="{{ album.path }}/{{ image.thumb }}">
+					<img src="{{ album.path }}/{{ image.thumb }}">
 		        </a>
 		    {% endfor %}
 		{% endif %}
