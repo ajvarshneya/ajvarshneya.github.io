@@ -41,7 +41,6 @@
   - name: 12-18-15-shenandoah13.jpg
     thumb: 12-18-15-shenandoah13-thumb.jpg
     text: Ali
-
 - id: unsorted
   description: Miscellaneous photos
   path: https://s3.amazonaws.com/ajvarshneya/unsorted
@@ -97,3 +96,22 @@
   - name: 10-15-16-ece-capstone.jpg
     thumb: 10-15-16-ece-capstone-thumb.jpg
     text: Capstone battlestation
+- id: fractals
+  description: Fractals
+  path: https://s3.amazonaws.com/ajvarshneya/fractals
+  images:
+  - name: dragon.png
+    thumb: dragon-thumb.png
+    text: Dragon
+  - name: koch.png
+    thumb: koch-thumb.png
+    text: Koch snowflake
+  - name: plant.png
+    thumb: plant-thumb.png
+    text: Plant
+  - name: sierpinsky.png
+    thumb: sierpinsky-thumb.png
+    text: Sierpinsky's triangle
+  - name: z_order.png
+    thumb: z_order-thumb.png
+    text: Z-order curve

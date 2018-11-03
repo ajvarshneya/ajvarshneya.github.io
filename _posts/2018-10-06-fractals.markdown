@@ -12,8 +12,6 @@ I originally wrote these scripts a little over a year ago before I'd started wor
 
 Code is [here](https://github.com/ajvarshneya/fractals-and-curves).
 
-<img src="https://s3.amazonaws.com/ajvarshneya/posts/dragon.png" alt="Dragon curve" width="310"/>
-<img src="https://s3.amazonaws.com/ajvarshneya/posts/plant.png" alt="A plant" width="310"/>
-<img src="https://s3.amazonaws.com/ajvarshneya/posts/sierpinsky.png" alt="Sierpinski triangle" width="310"/>
-<img src="https://s3.amazonaws.com/ajvarshneya/posts/z_order.png" alt="Z-order curve" width="310"/>
-<img src="https://s3.amazonaws.com/ajvarshneya/posts/koch.png" alt="Koch snowflake" width="310"/>
+More pictures [here](/pictures/fractals/).
+
+<img src="https://s3.amazonaws.com/ajvarshneya/fractals/dragon-thumb.png" alt="Dragon curve" width="310"/>
