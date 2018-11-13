@@ -4,12 +4,10 @@ layout: default
 <div class="content-container">
 	<div class="content"
 		<div class="post">
-			<a href="{{ page.url }}">
-				<div class="post-header">
-					<div class="link-title post-title">{{ page.title }}</div>
-					<p class="post-date">{{ page.date | date: "%0d %b %Y" }}</p>
-				</div>
-			</a>
+			<div class="post-header">
+				<div class="post-title">{{ page.title }}</div>
+				<p class="post-date">{{ page.date | date: "%0d %b %Y" }}</p>
+			</div>
 
 			<article class="post-content">
 				{{ content }}

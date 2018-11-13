@@ -3,7 +3,7 @@
 	color: black;
 	background-color: white;
 
-	min-height: calc(100% - 220px);
+	min-height: calc(100% - 200px);
 	padding: 40px;
 	margin: 0 auto;
 
@@ -12,6 +12,18 @@
 
 	p {
 		margin-bottom: $base-line-height;
+	}
+}
+
+@include media-query($on-tablet) {
+	.content-container {
+		min-height: calc(100% - 180px);
+	}
+}
+
+@include media-query($on-phone) {
+	.content-container {
+		min-height: calc(100% - 160px);
 	}
 }
 
