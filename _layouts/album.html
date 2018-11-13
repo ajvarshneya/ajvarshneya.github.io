@@ -3,14 +3,23 @@ layout: default
 ---
 <div class="content-container">
 	<div class="content">
-	{% for album in site.data.pictures %}
-		{% if album.id == page.id %}
-			{% for image in album.images %}
-				<a href="{{ album.path }}/{{ image.name }}" title="{{ image.text }}">
-					<img src="{{ album.path }}/{{ image.thumb }}">
-		        </a>
-		    {% endfor %}
-		{% endif %}
-	{% endfor %}
+		{% for album in site.data.pictures %}
+			{% if album.id == page.id %}
+				{% for image in album.images %}
+					{% capture modulo %}{{ forloop.index | modulo: 3 }}{% endcapture %}
+					{% if modulo == '1' %}
+						<div class="thumb-container">
+					{% endif %}
+						<div class="thumb">
+							<a href="{{ album.path }}/{{ image.name }}" title="{{ image.text }}">
+								<img src="{{ album.path }}/{{ image.thumb }}">
+					        </a>
+						</div>
+					{% if modulo == '0' or forloop.last %}
+						</div>
+					{% endif %}
+			    {% endfor %}
+			{% endif %}
+		{% endfor %}
 	</div>
 </div>

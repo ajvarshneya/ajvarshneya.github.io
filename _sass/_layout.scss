@@ -8,19 +8,14 @@ header {
 	background-color: white;
 
 	min-height: calc(100% - 220px);
-	overflow: auto;
 	padding: 40px;
 	margin: 0 auto;
 
 	box-sizing: content-box;
-	line-height: $line-height;
+	line-height: $base-line-height;
 
 	p {
-		margin-bottom: $line-height;
-	}
-
-	img {
-		padding: 14px 28px 14px 0px;
+		margin-bottom: $base-line-height;
 	}
 
 	.video-container {
@@ -37,14 +32,18 @@ header {
 }
 
 .content {
-	max-width: 1024px;
+	max-width: 930px;
 	margin: 0 auto;
+}
+
+.thumb-container {
+	font-size: 0;
+	line-height: 0;
+	display: flex;
 }
 
 .album-thumb {
 	position: relative;
-	display: inline-block;
-	margin: 14px 28px 14px 0px;
 	.caption {
 	    position: absolute;
 	    top: 50%;
@@ -55,7 +54,15 @@ header {
 	}
 	img {
 		display: block;
-		padding: 0;
 		filter: brightness(50%);
+	}
+}
+
+.thumb {
+	font-size: $base-font-size;
+	display: inline-block;
+	width: 33%;
+	img {
+		width: 100%;
 	}
 }
