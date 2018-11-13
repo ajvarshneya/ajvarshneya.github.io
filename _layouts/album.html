@@ -6,18 +6,27 @@ layout: default
 		{% for album in site.data.pictures %}
 			{% if album.id == page.id %}
 				{% for image in album.images %}
-					{% capture modulo %}{{ forloop.index | modulo: 3 }}{% endcapture %}
-					{% if modulo == '1' %}
-						<div class="thumb-container">
+					{% capture mod %}{{ forloop.index | modulo: 3 }}{% endcapture %}
+					{% capture negativeMod %}{{ forloop.index | modulo: 3 }}{% endcapture %}
+
+					{% if mod == '1' %}
+					<div class="thumb-container">
 					{% endif %}
-						<div class="thumb">
-							<a href="{{ album.path }}/{{ image.name }}" title="{{ image.text }}">
-								<img src="{{ album.path }}/{{ image.thumb }}">
-					        </a>
-						</div>
-					{% if modulo == '0' or forloop.last %}
-						</div>
+
+					<div class="thumb">
+						<a href="{{ album.path }}/{{ image.name }}" title="{{ image.text }}">
+							<img src="{{ album.path }}/{{ image.thumb }}">
+				        </a>
+					</div>
+
+					{% if forloop.last %}
+						{% for num in (1..negativeMod)}<div class="thumb"></div>
 					{% endif %}
+
+					{% if mod == '0' or forloop.last %}
+					</div>
+					{% endif %}
+
 			    {% endfor %}
 			{% endif %}
 		{% endfor %}
