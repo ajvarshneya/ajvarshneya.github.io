@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<div class="content-container">
+	<div class="content">
+        <!-- Render all images -->
+        {% for image in site.data.pictures %}
+            {% capture mod %}{{ forloop.index | modulo: 3 }}{% endcapture %}
+            {% capture negativeMod %}{{ 3 | minus: mod }}{% endcapture %}
+
+            {% if mod == '1' %}
+            <div class="thumb-container">
+            {% endif %}
+
+            <div class="thumb">
+                <a href="https://s3.amazonaws.com/ajvarshneya/images/{{ image.name }}" title="{{ image.text }}">
+                    <img src="https://s3.amazonaws.com/ajvarshneya/images/{{ image.thumb }}">
+                </a>
+            </div>
+
+            {% if forloop.last %}
+                {% for num in (1..negativeMod) %}
+                <div class="thumb"></div>
+                {% endfor %}
+            {% endif %}
+
+            {% if mod == '0' or forloop.last %}
+            </div>
+            {% endif %}
+
+        {% endfor %}
+	</div>
+</div>

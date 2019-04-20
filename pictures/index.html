@@ -1,19 +1,5 @@
 ---
-layout: default
+layout: pictures
 title: Pictures
 permalink: /pictures/
 ---
-<div class="content-container">
-	<div class="content">
-		<div class="thumb-container">
-			{% for album in site.data.pictures %}
-			<div class="thumb album-thumb invert-link-color">
-				<a href="{{ album.id }}" alt="{{ album.description }}" >
-					<img src=" https://s3.amazonaws.com/ajvarshneya/{{ album.id }}/thumb.jpg">
-					<div class="caption">{{ album.id }}</div>
-				</a>
-			</div>
-			{% endfor %}
-		</div>
-	</div>
-</div>
