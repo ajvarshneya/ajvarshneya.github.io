@@ -11,7 +11,7 @@ The flow: users log in with Spotify, input constraints for their playlist (genre
 
 <img src="https://s3.amazonaws.com/ajvarshneya/images/hearnow-home.jpg" alt="hear now home" width="310"/><img src="https://s3.amazonaws.com/ajvarshneya/images/hearnow.jpg" alt="hear now" width="310"/><img src="https://s3.amazonaws.com/ajvarshneya/images/spotify-playlist.jpg" alt="spotify playlist" width="310"/>
 
-The front end is mostly JavaScript (a bunch of JQuery) with Flask (a lightweight Python web framework) for the web layer. 
+The front end uses JavaScript (a bunch of JQuery) and Flask (a lightweight Python web framework). 
 
 I used Google Maps APIs to embed a map on the generate page. It is was nice to use, straightforward to zoom, drop a pin, style the map, etc. I did have one issue with the Maps APIs: the autocomplete was not debounced, so with some really heavy testing I was hitting the free API limit sometimes. It sounds like Google has since changed the pricing structure for their autocomplete service to be session-based rather than request-based which should give me more leeway here, but I haven't gotten around to updating my code.
 
