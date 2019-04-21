@@ -10,8 +10,13 @@
 	box-sizing: content-box;
 	line-height: $base-line-height;
 
-	p {
-		margin-bottom: $base-line-height;
+	.post-content {
+		p {
+			margin-top: $base-line-height;
+		}
+		li {
+			list-style-position: inside;
+		}
 	}
 }
 

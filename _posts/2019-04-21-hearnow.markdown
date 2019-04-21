@@ -1,0 +1,31 @@
+---
+layout: post
+title: "Hear now: Concert-based playlist generation"
+date: 2019-04-21 05:00:00
+published: true
+---
+
+I worked on this project for a couple weeks before starting at APT. I saw a reddit thread for a website that curates playlists based on artists touring to cities for concerts and I figured that I could program something similar to create pretty good playlists without the manual curation. 
+
+The flow: users log in with Spotify, input constraints for their playlist (genre, location, timeframe, concert radius), hit submit, and a playlist is created.
+
+<img src="https://s3.amazonaws.com/ajvarshneya/images/hearnow-home.jpg" alt="hear now home" width="310"/><img src="https://s3.amazonaws.com/ajvarshneya/images/hearnow.jpg" alt="hear now" width="310"/><img src="https://s3.amazonaws.com/ajvarshneya/images/spotify-playlist.jpg" alt="spotify playlist" width="310"/>
+
+The front end is mostly JavaScript (a bunch of JQuery) with Flask (a lightweight Python web framework) for the web layer. 
+
+I used Google Maps APIs to embed a map on the generate page. It is was nice to use, straightforward to zoom, drop a pin, style the map, etc. I did have one issue with the Maps APIs: the autocomplete was not debounced, so with some really heavy testing I was hitting the free API limit sometimes. It sounds like Google has since changed the pricing structure for their autocomplete service to be session-based rather than request-based which should give me more leeway here, but I haven't gotten around to updating my code.
+
+The back end uses Python with Celery (a job queue library) to manage the relatively long-running playlist generation jobs. The basic back end flow is: 
+- Use SeatGeek's API to find venues/artists near the user.
+- Use Spotify's API to search for artists, and use fuzzy matching between search results and artist names to map them to Spotify's artist IDs.
+- Use Spotify's API to get the top 5-10 most popular tracks for each artist, randomly select ~30 to add to a playlist.
+
+Spotify's search API isn't a batch API, which is the main bottleneck on playlist generation time. The app has to make many search requests which are relatively expensive. I ended up using Redis to cache API calls (i.e. for the artist name to ID mapping) which significantly improved performance, but I don't get much traffic so the cache is usually pretty cold. 😅
+
+The app is split up with containers ('web', 'worker', and 'redis') for organization, to make it easier to deploy, and to make these separately scalable (but I haven't had enough traffic to worry about this last point).
+
+Code is [here]().
+
+Website is [here](http://www.hearnow.io).
+
+Last aside: I actually took the background photo on the home page, and it seems to fit pretty well.

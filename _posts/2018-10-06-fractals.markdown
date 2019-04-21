@@ -8,7 +8,7 @@ published: true
 #### Drawing Fractals
 -->
 
-I originally wrote these scripts a little over a year ago before I'd started working. I'd taken a graphics class in school where we one of the things we implemented was a line drawing algorithm (something like [this](https://en.wikipedia.org/wiki/Digital_differential_analyzer_(graphics_algorithm))). I adapted some of that code I had written to draw fractals and other patterns that were nicely [represented with grammars](https://en.wikipedia.org/wiki/L-system).
+I wrote these scripts a little over a year ago before I'd started working. I'd taken a graphics class in school where we one of the things we implemented was a line drawing algorithm (something like [this](https://en.wikipedia.org/wiki/Digital_differential_analyzer_(graphics_algorithm))). I adapted some of that code I had written to draw fractals and other patterns that were nicely [represented with grammars](https://en.wikipedia.org/wiki/L-system).
 
 Code is [here](https://github.com/ajvarshneya/fractals-and-curves).
 
