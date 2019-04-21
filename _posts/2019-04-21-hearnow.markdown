@@ -5,7 +5,7 @@ date: 2019-04-21 05:00:00
 published: true
 ---
 
-I worked on this project for a couple weeks before starting at APT. I saw a reddit thread for a website that curates playlists based on artists touring to cities for concerts and I figured that I could program something similar to create pretty good playlists without the manual curation. 
+I worked on this project for a couple weeks before starting at APT (almost two years ago now). I saw a reddit thread for a website that curates playlists based on artists touring to cities for concerts and I figured that I could program something similar to create pretty good playlists without the manual curation. 
 
 The flow: users log in with Spotify, input constraints for their playlist (genre, location, timeframe, concert radius), hit submit, and a playlist is created.
 
