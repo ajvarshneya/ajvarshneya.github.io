@@ -24,8 +24,6 @@ Spotify's search API isn't a batch API, which is the main bottleneck on playlist
 
 The app is split up with containers ('web', 'worker', and 'redis') for organization, to make it easier to deploy, and to make these separately scalable (but I haven't had enough traffic to worry about this last point).
 
-Code is [here]().
-
 Website is [here](http://www.hearnow.io).
 
 Last aside: I actually took the background photo on the home page, and it seems to fit pretty well.
