@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 	Embedded Systems Final Project
+title: 	Embedded systems final project
 date:   2015-12-27 23:40:00
 published: true
 ---

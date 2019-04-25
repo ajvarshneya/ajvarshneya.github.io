@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hear now: Concert-based playlist generation"
+title: "Hearnow: concert-based playlist generation"
 date: 2019-04-21 05:00:00
 published: true
 ---

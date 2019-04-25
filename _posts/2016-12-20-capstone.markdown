@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Capstone: Wizard's Chess"
+title:  "Capstone: wizard's chess"
 date:   2016-12-20 17:14:00
 published: true
 ---

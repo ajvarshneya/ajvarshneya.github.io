@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  React Calculator
+title:  macOS calculator clone
 date:   2016-12-20 17:14:00
 published: true
 ---
@@ -8,7 +8,7 @@ published: true
 #### React Calculator
 -->
 
-I hacked together a copy of OSX calculator using React.
+I hacked together a copy of the macOS calculator using React.
 
 Code is [here](https://github.com/ajvarshneya/react-calculator).
 

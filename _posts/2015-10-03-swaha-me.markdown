@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 	URL Shortener
+title: 	URL shortener
 date:   2015-10-03 13:51:00
 published: true
 ---
