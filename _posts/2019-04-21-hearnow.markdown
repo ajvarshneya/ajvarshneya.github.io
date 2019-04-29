@@ -26,4 +26,4 @@ The app is split up with containers ('web', 'worker', and 'redis') for organizat
 
 Website is [here](http://www.hearnow.io).
 
-Last aside: I actually took the background photo on the home page, and it seems to fit pretty well.
+Last aside: I'm usually bad at taking photos but I took the background picture on the homepage of the app and I'm kind of proud of it. :)
