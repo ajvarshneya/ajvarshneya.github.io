@@ -54,10 +54,6 @@
   thumb: 10-24-15-beach2-thumb.jpg
   text: Miami
 
-- name: 10-23-15-wedding-boat.jpg
-  thumb: 10-23-15-wedding-boat-thumb.jpg
-  text: Miami
-
 - name: 5-8-15-ece-project.jpg
   thumb: 5-8-15-ece-project-thumb.jpg
   text: Audio visualizer
@@ -68,10 +64,6 @@
 
 - name: 10-17-14-kite.jpg
   thumb: 10-17-14-kite-thumb.jpg
-  text: Rodfest
-
-- name: 10-17-14-rodfest.jpg
-  thumb: 10-17-14-rodfest-thumb.jpg
   text: Rodfest
 
 - name: 7-4-14-lake.jpg
