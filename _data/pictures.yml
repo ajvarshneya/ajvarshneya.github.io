@@ -1,3 +1,39 @@
+- name: 02-16-19-bridge.jpg
+  thumb: 02-16-19-bridge-thumb.jpg
+  text: bridge
+
+- name: 03-30-19-aquarium.jpg
+  thumb: 03-30-19-aquarium-thumb.jpg
+  text: aquarium
+
+- name: 04-01-19-carter.jpg
+  thumb: 04-01-19-carter-thumb.jpg
+  text: carter
+
+- name: 02-18-19-twin-peaks.jpg
+  thumb: 02-18-19-twin-peaks-thumb.jpg
+  text: twin-peaks
+
+- name: 03-30-19-me.jpg
+  thumb: 03-30-19-me-thumb.jpg
+  text: me
+
+- name: 07-19-19-apollo.jpg
+  thumb: 07-19-19-apollo-thumb.jpg
+  text: apollo
+
+- name: 03-29-19-atl.jpg
+  thumb: 03-29-19-atl-thumb.jpg
+  text: atl
+
+- name: 03-31-19-nice.jpg
+  thumb: 03-31-19-nice-thumb.jpg
+  text: nice
+
+- name: dragon.png
+  thumb: dragon-thumb.png
+  text: Dragon
+
 - name: dragon.png
   thumb: dragon-thumb.png
   text: Dragon
