@@ -1,28 +1,31 @@
 ---
-layout: default
 id: home
 ---
 
 <!DOCTYPE html>
 <html>
-
+{% include google-analytics.html %}
 {% include head.html %}
 <body>
+	{% include header.html %}
+	<canvas id="canvas">
+	</canvas>
 	<div id="home-container" class="invert-link-color">
 		<div id="nav-container">
 			<ul class="inline-list">
-			  <li><a href="/archive/">archive</a></li>
-			  <li><a href="/pictures/">pictures</a></li>
-			  <li><a href="https://www.linkedin.com/in/ajvarshneya/">linkedin</a></li>
-			  <li><a href="https://github.com/ajvarshneya">github</a></li>
+			<li><a href="/archive/">archive</a></li>
+			<li><a href="/pictures/">pictures</a></li>
+			<li><a href="https://www.linkedin.com/in/ajvarshneya/">linkedin</a></li>
+			<li><a href="https://github.com/ajvarshneya">github</a></li>
 			</ul>
 		</div>
 		<div id="home-text">
-			Hello, I'm A.J. 
+			I'm a software engineer at twitch.tv
 			<br>
-			Welcome to my homegrown instagram knockoff + blog site. :)
 		</div>
 	</div>
 </body>
+
+<script src="assets/fractal.js"></script>
 
 </html>

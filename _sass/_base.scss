@@ -1,14 +1,21 @@
 * {
     margin: 0;
-    padding: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 html {
-	background-color:  $background-color;
+	background-color:  black;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
 html, body {
-	height: 100%;
+	height: 100vh;
 	width: 100vw;
 }
 
@@ -16,12 +23,18 @@ body {
 	color: white;
 	font-family: 'PT Sans', sans-serif;
 	font-size: $base-font-size;
-
-	background: url('https://s3.amazonaws.com/ajvarshneya/lake-rain2.jpg') no-repeat top center;
-	background-color: white;
 	background-size: cover;
-
 	overflow-x: hidden;
+}
+
+#canvas {
+	height: 100%;
+	width: 100%;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:-1;
+	background-color:  black;
 }
 
 a, a:visited, a:active, a:focus {
