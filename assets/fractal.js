@@ -238,7 +238,7 @@ function render() {
     canvas.width = window.innerWidth;
     const clientHeight = document.getElementById('control-height').clientHeight;
     const desiredHeight = 2 * (window.innerHeight - clientHeight) + clientHeight
-    canvas.height = clientHeight;
+    canvas.height = desiredHeight;
 
 
     context = canvas.getContext("2d");
