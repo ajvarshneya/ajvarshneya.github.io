@@ -237,8 +237,7 @@ function render() {
     canvas = document.getElementById("canvas");
     canvas.width = window.innerWidth;
     const clientHeight = document.getElementById('control-height').clientHeight;
-    const desiredHeight = 2 * clientHeight - window.innerHeight
-    canvas.height = desiredHeight;
+    canvas.height = clientHeight;
 
     context = canvas.getContext("2d");
     context.strokeStyle = LINE_COLOR;
@@ -268,7 +267,7 @@ var windowWidth = window.innerWidth;
 window.onresize = function() {
     const clientHeight = document.getElementById('control-height').clientHeight;
     if (windowHeight != clientHeight || windowWidth != window.innerWidth) {
-        canvas.height = 2 * clientHeight - window.innerHeight;
+        canvas.height = clientHeight;
         canvas.width = window.innerWidth;
 
         windowHeight = clientHeight;
