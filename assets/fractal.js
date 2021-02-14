@@ -211,7 +211,10 @@ function getTurnAngle(depth) {
     return toRadians(randomRange(10, 28));
 }
 
-const LINE_COLOR = "#3A5F0B";
+// const LINE_COLOR = "#4F7942"; // fern
+// const LINE_COLOR = "#3EB489"; // mint
+// const LINE_COLOR = "#00A86B"; // jade
+const LINE_COLOR = "#01796F"; // pine
 
 const TICKS_PER_LINE = 4;
 const MIN_BRANCH_DEPTH = 10
@@ -256,3 +259,8 @@ function render() {
 }
 
 render();
+
+window.onresize = function() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+}
