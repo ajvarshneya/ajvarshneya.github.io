@@ -235,8 +235,8 @@ var deepest = 0;
 
 function render() {
     canvas = document.getElementById("canvas");
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
+    canvas.width = window.width;
+    canvas.height = window.height;
 
     context = canvas.getContext("2d");
     context.strokeStyle = LINE_COLOR;
@@ -261,6 +261,6 @@ function render() {
 render();
 
 window.onresize = function() {
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
+    canvas.width = window.width;
+    canvas.height = window.height;
 }
