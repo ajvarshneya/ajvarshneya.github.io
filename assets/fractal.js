@@ -263,15 +263,16 @@ function render() {
 
 render();
 
+let windowHeight = document.getElementById('control-height').clientHeight;
 var windowWidth = window.innerWidth;
-var windowHeight = window.innerHeight;
 window.onresize = function() {
-    if (window.innerWidth != window.windowWidth
-        || window.innerHeight != window.windowHeight) {
+    const clientHeight = document.getElementById('control-height').clientHeight;
+    if (windowHeight != clientHeight
+        || windowWidth != window.innerWidth) {
             canvas.width = window.innerWidth;
-            canvas.height = window.innerHeight;
+            canvas.height = 2 * clientHeight - innerHeight;
 
             windowWidth = window.innerWidth;
-            windowHeight = window.innerHeight;
+            windowHeight = 2 * clientHeight - innerHeight;
         }
 }
