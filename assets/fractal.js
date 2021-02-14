@@ -1,5 +1,5 @@
-// shitty code all rights reserved lol
-// A.J. Varshneya
+// shitty code lol 
+// all rights reserved gg A.J. Varshneya
 
 // Polyfill
 if (!window.requestAnimationFrame) {
@@ -213,9 +213,8 @@ function getTurnAngle(depth) {
 
 const LINE_COLOR = "#3A5F0B";
 
-const TICKS_PER_LINE = 1;
+const TICKS_PER_LINE = 4;
 const MIN_BRANCH_DEPTH = 10
-const MAX_DEPTH = 20;
 
 const START_ANGLE = toRadians(270);
 const START_DEPTH = 0;
@@ -240,14 +239,20 @@ function render() {
     context.strokeStyle = LINE_COLOR;
     context.lineWidth = "1px";
         
-    maxLineLength = Math.sqrt(canvas.width * canvas.height) / 4;
-    maxDepth = Math.sqrt(canvas.width * canvas.height) / 64;
+    maxLineLength = Math.sqrt(canvas.width * canvas.height) / 6;
+    maxDepth = Math.min(16, Math.sqrt(canvas.width * canvas.height) / 48);
 
-    let startPoint = {x: 0, y: canvas.height};
-    drawPlant(startPoint, 0 /* depth */, toRadians(235) /* start angle */, function(){});
+    let startPoint = {x: -canvas.width*2/20, y: canvas.height*22/20};
+    drawPlant(startPoint, 0 /* depth */, toRadians(270) /* start angle */, function(){});
 
-    startPoint = {x: canvas.width, y: 0};
-    drawPlant(startPoint, 0 /* depth */, toRadians(45) /* start angle */, function(){});
+    startPoint = {x: canvas.width*22/20, y: -canvas.height*2/20};
+    drawPlant(startPoint, 0 /* depth */, toRadians(90) /* start angle */, function(){});
+
+    startPoint = {x: canvas.width*22/20, y: canvas.height*22/20};
+    drawPlant(startPoint, 0 /* depth */, toRadians(180) /* start angle */, function(){});
+
+    startPoint = {x: -canvas.width*2/20, y: -canvas.height*2/20};
+    drawPlant(startPoint, 0 /* depth */, toRadians(0) /* start angle */, function(){});
 }
 
 render();
