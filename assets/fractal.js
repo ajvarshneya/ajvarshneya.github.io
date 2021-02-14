@@ -263,16 +263,16 @@ function render() {
 
 render();
 
-let windowHeight = document.getElementById('control-height').clientHeight;
+var windowHeight = window.innerHeight
 var windowWidth = window.innerWidth;
 window.onresize = function() {
     const clientHeight = document.getElementById('control-height').clientHeight;
-    if (windowHeight != clientHeight
+    if (windowHeight != window.innerHeight
         || windowWidth != window.innerWidth) {
             canvas.width = window.innerWidth;
             canvas.height = 2 * clientHeight - innerHeight;
 
             windowWidth = window.innerWidth;
-            windowHeight = 2 * clientHeight - innerHeight;
+            windowHeight = window.innerHeight;
         }
 }
