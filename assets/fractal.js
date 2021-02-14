@@ -236,7 +236,8 @@ var deepest = 0;
 function render() {
     canvas = document.getElementById("canvas");
     canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
+    const elementHeight = document.getElementById('control-height').clientHeight;
+    canvas.height = elementHeight;
 
 
     context = canvas.getContext("2d");
