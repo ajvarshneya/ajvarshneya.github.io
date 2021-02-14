@@ -240,7 +240,6 @@ function render() {
     const desiredHeight = 2 * clientHeight - window.innerHeight
     canvas.height = desiredHeight;
 
-
     context = canvas.getContext("2d");
     context.strokeStyle = LINE_COLOR;
     context.lineWidth = "1px";
@@ -263,16 +262,16 @@ function render() {
 
 render();
 
-var windowHeight = document.getElementById('control-height').clientHeight;
+const clientHeight = document.getElementById('control-height').clientHeight;
+var windowHeight = clientHeight;
 var windowWidth = window.innerWidth;
 window.onresize = function() {
     const clientHeight = document.getElementById('control-height').clientHeight;
-    if (windowHeight != clientHeight
-        || windowWidth != window.innerWidth) {
-            canvas.height = 2 * clientHeight - innerHeight;
-            canvas.width = window.innerWidth;
+    if (windowHeight != clientHeight || windowWidth != window.innerWidth) {
+        canvas.height = 2 * clientHeight - window.innerHeight;
+        canvas.width = window.innerWidth;
 
-            windowHeight = clientHeight;
-            windowWidth = window.innerWidth;
-        }
+        windowHeight = clientHeight;
+        windowWidth = window.innerWidth;
+    }
 }
