@@ -263,7 +263,15 @@ function render() {
 
 render();
 
+var windowWidth = window.innerWidth;
+var windowHeight = window.innerHeight;
 window.onresize = function() {
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
+    if (window.innerWidth != window.windowWidth
+        || window.innerHeight != window.windowHeight) {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+
+            windowWidth = window.innerWidth;
+            windowHeight = window.innerHeight;
+        }
 }
