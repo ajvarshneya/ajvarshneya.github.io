@@ -214,7 +214,9 @@ function getTurnAngle(depth) {
 // const LINE_COLOR = "#4F7942"; // fern
 // const LINE_COLOR = "#3EB489"; // mint
 // const LINE_COLOR = "#00A86B"; // jade
-const LINE_COLOR = "#01796FA0"; // pine
+// const LINE_COLOR = "#093923A0"; 
+// const LINE_COLOR = "#2E8D36A0"; 
+const LINE_COLOR = "#093923A0"; // actually pine color
 
 const TICKS_PER_LINE = 4;
 const MIN_BRANCH_DEPTH = 10
